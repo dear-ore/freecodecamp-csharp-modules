@@ -9,12 +9,15 @@
 // Console.WriteLine();
 // Console.WriteLine(text);
 
-Random dice = new Random();
-int roll1 = dice.Next();
-int roll2 = dice.Next(101);
-int roll3 = dice.Next(50, 101);
+// Random dice = new Random();
+// int roll1 = dice.Next();
+// int roll2 = dice.Next(101);
+// int roll3 = dice.Next(50, 101);
 
-Console.WriteLine($"First roll: {roll1}");
-Console.WriteLine($"Second roll: {roll2}");
-Console.WriteLine($"Third roll: {roll3}");
+// Console.WriteLine($"First roll: {roll1}");
+// Console.WriteLine($"Second roll: {roll2}");
+// Console.WriteLine($"Third roll: {roll3}");
 
+Console.WriteLine(Math.Max(500, 600));
+Console.WriteLine(Math.Pow(2, 32));
+Console.WriteLine(Math.Log2(35));
